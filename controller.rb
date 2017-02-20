@@ -9,3 +9,7 @@ game = Game.new(params[:hand1])
 @result = game.play()
 erb(:home)
 end
+
+get "/about" do
+  erb(:about)
+end

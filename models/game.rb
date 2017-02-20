@@ -20,15 +20,13 @@ class Game
     @play = "You entered #{p1Result} and the computer played #{p2Result}"
     #puts @play
     if p1Result == p2Result
-      @result = "its a draw!"
+      @result = "It's a draw!"
     elsif (p1Result == "rock" && p2Result == "scissors") || (p1Result == "paper" && p2Result == "rock") || (p1Result == "scissors" && p2Result == "paper")
       @result = "You beat the computer! #{p1Result} beats #{p2Result}"
     else
       @result =  "The computer won! #{p2Result} beats #{p1Result}"
     end
     return @result_array = [@play, @result]
-
-
   end
 
   def random123()

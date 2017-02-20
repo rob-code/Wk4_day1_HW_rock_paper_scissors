@@ -1,0 +1,22 @@
+
+* {font-family: sans-serif, Arial;}
+
+h1 {
+  padding-top: 50px;
+  text-align: center;
+  font-weight: normal;
+}
+
+
+h2 {
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.description {
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 18px;
+}
